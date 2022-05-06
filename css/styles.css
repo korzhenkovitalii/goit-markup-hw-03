@@ -287,10 +287,13 @@ h4 {
     color: var(--accent-color);
 }
 /* main-pertfolio  */
+.page-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .page-nav{
     display: flex;
     justify-content: center;
-    padding-top: 94px;
     padding-bottom: 50px;
    
 }
@@ -309,6 +312,7 @@ h4 {
 
 .portfolio-item{
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 .portfolio-item:nth-child(3n){
     margin-right: 0;
